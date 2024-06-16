@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  border: 3px solid SaddleBrown;
+  border: 3px outset SaddleBrown;
   color: navy;
   margin-left: 20px;
 }
