@@ -8,3 +8,12 @@ h1 {
   color: navy;
   margin-left: 20px;
 }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+label {
+  font-family: "Courier New", Monaco, Monospace;
+}
+input {
+  font-family: "Courier New", Monaco, Monospace;
+}
