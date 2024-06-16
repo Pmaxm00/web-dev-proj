@@ -4,6 +4,8 @@ body {
 
 h1 {
   border: 3px;
+  border: solid;
+  border: DarkSalmon;
   color: navy;
   margin-left: 20px;
 }
