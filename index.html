@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 app.post('/submit-form', (req, res) => {
     const username = req.body.username; // access form data
     // Add validation logic here
-    res.send(`Username is $pmoskowi`);
+    res.send(`Nice to meet you! My name is Paul!`);
 });
 
 app.listen(port, () => {
@@ -40,7 +40,13 @@ app.listen(port, () => {
 });
   </script>
 
-<form action="/submit-form" method="post">
+  <script>
+    function submitForm()
+      {
+        alert("Nice to meet you! My name is Paul!");
+      }
+  </script>
+<form action="submitForm()" method="post">
         <label for="name">What is your name:</label>
         <input type="text" id="name" name="name" required>
         <button type="submit">Submit</button>
